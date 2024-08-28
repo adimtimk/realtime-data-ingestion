@@ -1,0 +1,41 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://www.codeinvestigator.com/spaceshiprequest.schema.json",
+	"title": "Sales Schema",
+	"description": "Sales Schema",
+	"type": "object",
+	"properties": {
+		"agentId": {
+			"description": "Unique agentId",
+			"type": "integer"
+		},
+		"officeId": {
+			"description": "Unique officeId",
+			"type": "integer"
+		},
+		"carID": {
+			"description": "Unique carID",
+			"type": "integer"
+		},
+		"customerId": {
+			"description": "Unique customerId",
+			"type": "integer"
+		},
+		"salesDateTxn": {
+			"description": "Unique salesDateTxn",
+			"type": "number"
+		},
+		"salesAmount": {
+			"description": "Unique salesAmount",
+			"type": "number"
+		}
+	},
+	"required": [
+		"agentId",
+		"officeId",
+		"carID",
+		"customerId",
+		"salesDateTxn",
+		"salesAmount"
+	]
+}

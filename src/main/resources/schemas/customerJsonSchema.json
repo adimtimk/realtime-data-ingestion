@@ -1,0 +1,79 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://www.codeinvestigator.com/spaceshiprequest.schema.json",
+	"title": "Customer Schema",
+	"description": "Customer Schema",
+	"type": "object",
+	"properties": {
+		"customerId": {
+			"description": "Unique customerId",
+			"type": "integer"
+		},
+		"mobileNum": {
+			"description": "Unique mobileNum",
+			"type": "string"
+		},
+		"name": {
+			"description": "Unique name",
+			"type": "string"
+		},
+		"gender": {
+			"description": "Unique gender",
+			"type": "string"
+		},
+		"age": {
+			"description": "Unique age",
+			"type": "number"
+		},
+		"nationality": {
+			"description": "Unique nationality",
+			"type": "string"
+		},
+		"passportNum": {
+			"description": "Unique passportNum",
+			"type": "string"
+		}
+		,
+		"idNum": {
+			"description": "Unique idNum",
+			"type": "string"
+		}
+		,
+		"leaseStartDate": {
+			"description": "Unique leaseStartDate",
+			"type": "number"
+		},
+		"leasePeriod": {
+			"description": "Unique leasePeriod",
+			"type": "number"
+		},
+		"city": {
+			"description": "Unique city",
+			"type": "string"
+		},
+		"code": {
+			"description": "Unique code",
+			"type": "string"
+		},
+		"area": {
+			"description": "Unique area",
+			"type": "string"
+		}
+	},
+	"required": [
+		"customerId",
+		"mobileNum",
+		"name",
+		"gender",
+		"age",
+		"nationality",
+		"passportNum",
+		"idNum",
+		"leaseStartDate",
+		"leasePeriod",
+		"city",
+		"code",
+		"area"
+	
+	]
+}

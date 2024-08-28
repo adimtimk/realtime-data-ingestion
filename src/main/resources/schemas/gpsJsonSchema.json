@@ -1,0 +1,61 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://www.codeinvestigator.com/spaceshiprequest.schema.json",
+    "title": "GPS Schema",
+    "description": "GPS Schema",
+    "type": "object",
+    "properties": {
+        "customerId": {
+            "description": "Unique customerId",
+            "type": "integer"
+        },
+        "carID": {
+            "description": "Unique carID",
+            "type": "integer"
+        },
+        "officeID": {
+            "description": "Unique officeID",
+            "type": "integer"
+        },
+        "agentID": {
+            "description": "Unique agentID",
+            "type": "integer"
+        },
+        "gtimeStamp": {
+            "description": "Unique timeStamp",
+            "type": "number"
+        },
+        "carMovementStatus": {
+            "description": "Unique carMovementStatus",
+            "type": "string"
+        },
+        "currLongitude": {
+            "description": "Unique currLongitude",
+            "type": "number"
+        },
+        "currLatitude": {
+            "description": "Unique currLatitude",
+            "type": "number"
+        },
+        "currArea": {
+            "description": "Unique currArea",
+            "type": "string"
+        },
+        "currKilometers": {
+            "description": "Unique currKilometers",
+            "type": "number"
+        }
+    },
+    "required": [
+        "customerId",
+        "agentID",
+        "carID",
+        "officeID",
+        "gtimeStamp",
+        "carMovementStatus",
+        "currLongitude",
+        "currLatitude",
+        "currArea",
+        "currKilometers"
+    ]
+}
